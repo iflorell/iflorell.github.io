@@ -22,7 +22,10 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
+  float: left;
+  margin-right:100px;
+  font-style: bold;
 }
 
 a {
@@ -47,10 +50,10 @@ a {
   width: 30%;
 }
 
-#bio-image {
+#pro-pic {
   width: 200px;
   height: 200px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .work-section {
@@ -90,6 +93,20 @@ a {
     border: 8px;
     border-style: double;
     border-color: darkslategray;
-    display: flexbox;
+}
 
+.grid-item:first-child {
+    grid-column: span 8;
+    grid-row: span 2;
+    
+}
+
+.grid-item:hover {
+    background-color: var(--secondary);
+    padding: 8px 10px;
+}
+
+ul {
+    display: inline;
+    float: right;
 }

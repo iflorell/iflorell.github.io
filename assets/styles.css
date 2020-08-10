@@ -4,8 +4,8 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
-  color: #333;
-  background: #cac495;
+  color: whitesmoke;
+  background: steelblue;
 }
 
 header {
@@ -29,11 +29,11 @@ h2 {
 }
 
 a {
-  color: #d21034;
+  color:grey;
 }
 
 .container {
-  width: 1024px;
+  width: z;
   margin: 0 auto;
 }
 
@@ -42,13 +42,6 @@ a {
   float: left;
 }
 
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
 
 #pro-pic {
   width: 200px;
@@ -91,14 +84,12 @@ a {
 
 .work-section div div {
     border: 8px;
-    border-style: double;
     border-color: darkslategray;
 }
 
 .grid-item:first-child {
     grid-column: span 8;
     grid-row: span 2;
-    
 }
 
 .grid-item:hover {
@@ -107,6 +98,5 @@ a {
 }
 
 ul {
-    display: inline;
     float: right;
 }
